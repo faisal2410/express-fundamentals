@@ -6,13 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node expressModule.js",
-    "start-dev": "nodemon expressModule.js"
+    "start-dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "helmet": "^6.0.0"
+    "helmet": "^6.0.0",
+    "nodemon": "^2.0.20"
   }
 }
