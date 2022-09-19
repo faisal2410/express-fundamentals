@@ -15,7 +15,7 @@ The res object represents the HTTP response that an Express app sends when it ge
 */ 
 
 // Response Status Code
-app.get("/three", function (req, res) {
+app.get("/four", function (req, res) {
     res.status(201).end();
 })
 
